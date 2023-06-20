@@ -31,7 +31,7 @@ def train(model, train_loader, criterion, optimizer):
     for data, target in train_loader:  # Iterate over the training dataset
         optimizer.zero_grad()  # Zero the gradients of the model parameters
         output = model(data)  # Perform a forward pass of the data through the model
-        loss = criterion(output, target)  # Compute the loss between the model's output and the target labels
+        loss = criterion(output, target)  # Compute the loss
         loss.backward()  # Perform backpropagation to compute the gradients
         optimizer.step()  # Update the model parameters using the computed gradients
 
