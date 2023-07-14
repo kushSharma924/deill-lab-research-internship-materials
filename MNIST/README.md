@@ -1,5 +1,2 @@
-# kush_sharma_random_MNIST
-Implementation of the random method of active open-set annotation on the MNIST dataset using pyTorch.
-
 # MNIST_main
-Implementation of multiple active open-set annotation methods with different paramters. Used to optimize learning rate to prevent overfitting.
+Training a convolutional neural network to accurately classify handwritten digits (0-9) on the MNIST dataset. This specific program was Used to optimize hyperparamers to prevent overfitting on a larger active learning based model.
