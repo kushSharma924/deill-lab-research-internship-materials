@@ -1,3 +1,1 @@
-# DEILL-lab-research-internship-materials
-A collection of projects that I either worked on or created during my research internship at UTD's Data-Efficient Intelligent Learning Lab (DEILL) during the summer of 2023.
-
+# A convolutional neural network classifier that I trained to classify handwritten digits on the MNIST dataset.
